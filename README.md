@@ -1,2 +1,2 @@
-# UrbanRidezzz
+# UrbanGlidezzz
 Car Rental Service
