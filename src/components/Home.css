@@ -1,0 +1,38 @@
+/* Hero Section */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1500x600'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Moving Cards Animation */
+  .moving-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .moving-card:hover {
+    transform: translateY(-10px); /* Move the card up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+  /* Carousel Section */
+  .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
